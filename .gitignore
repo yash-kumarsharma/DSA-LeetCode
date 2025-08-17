@@ -1,0 +1,24 @@
+# Compiled files
+*.class
+
+# Build directories
+/out/
+/build/
+/target/
+
+# IDE configs
+.idea/
+*.iml
+.vscode/
+.project
+.classpath
+.settings/
+
+# OS junk
+.DS_Store
+Thumbs.db
+
+# Logs & crash dumps
+*.log
+hs_err_pid*
+
