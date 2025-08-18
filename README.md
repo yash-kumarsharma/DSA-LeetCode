@@ -17,6 +17,7 @@ DSA-LeetCode/
 │
 ├── README.md
 ├── .gitignore
+├── LICENSE
 ├── Arrays/
 ├── Strings/
 ├── LinkedList/
