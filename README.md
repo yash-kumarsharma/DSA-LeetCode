@@ -4,6 +4,7 @@
 ![Platform](https://img.shields.io/badge/platform-LeetCode-orange)
 ![Status](https://img.shields.io/badge/status-In%20Progress-yellow)
 ![License](https://img.shields.io/badge/license-MIT-green)
+![Problems Solved](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/yash-kumarsharma/DSA-LeetCode/main/.github/problem-count.json)
 
 This repository contains my solutions to **LeetCode Data Structures & Algorithms** problems, implemented in **Java**.  
 All solutions are organized by topic for easier navigation and reference.
