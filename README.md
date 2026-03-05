@@ -71,6 +71,3 @@ Built with 💻 and ☕ by:
 [![Yash Kumar Sharma](https://img.shields.io/badge/GitHub-Yash%20Kumar%20Sharma-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/yash-kumarsharma)
 
 I started this repository as part of my learning journey to improve my problem-solving and development skills through consistent practice.
-
-⭐ If you find this repo helpful, consider giving it a **star** — it really motivates me to keep going!
-
