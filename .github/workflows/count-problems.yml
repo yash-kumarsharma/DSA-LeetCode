@@ -1,5 +1,8 @@
 name: Update Problem Count Badge
 
+permissions:
+  contents: write
+
 on:
   push:
     branches:
@@ -11,7 +14,7 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout repository
+      - name: Checkout repo
         uses: actions/checkout@v3
 
       - name: Count Java files
@@ -20,12 +23,12 @@ jobs:
           COUNT=$(find . -name "*.java" | wc -l)
           echo "count=$COUNT" >> $GITHUB_OUTPUT
 
-      - name: Create badge JSON
+      - name: Create JSON badge
         run: |
           mkdir -p .github
-          echo "{\"schemaVersion\": 1, \"label\": \"Problems Solved\", \"message\": \"${{ steps.count.outputs.count }}\", \"color\": \"blue\"}" > .github/problem-count.json
+          echo "{\"schemaVersion\":1,\"label\":\"Problems Solved\",\"message\":\"${{ steps.count.outputs.count }}\",\"color\":\"blue\"}" > .github/problem-count.json
 
-      - name: Commit badge
+      - name: Commit update
         run: |
           git config --global user.name "github-actions"
           git config --global user.email "actions@github.com"
